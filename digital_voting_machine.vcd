@@ -1,0 +1,380 @@
+$date
+	Thu Sep  3 17:08:52 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb $end
+$var wire 7 ! seg_C [6:0] $end
+$var wire 7 " seg_B [6:0] $end
+$var wire 7 # seg_A [6:0] $end
+$var wire 1 $ memory_valid $end
+$var wire 4 % count_C [3:0] $end
+$var wire 4 & count_B [3:0] $end
+$var wire 4 ' count_A [3:0] $end
+$var reg 1 ( clk $end
+$var reg 1 ) reset $end
+$var reg 1 * show_result $end
+$var reg 1 + vote_A $end
+$var reg 1 , vote_B $end
+$var reg 1 - vote_C $end
+$scope module DUT $end
+$var wire 1 ( clk $end
+$var wire 1 ) reset $end
+$var wire 1 * show_result $end
+$var wire 1 + vote_A $end
+$var wire 1 , vote_B $end
+$var wire 1 - vote_C $end
+$var wire 1 . clean_C $end
+$var wire 1 / clean_B $end
+$var wire 1 0 clean_A $end
+$var parameter 2 1 IDLE $end
+$var parameter 2 2 RESULTS $end
+$var parameter 2 3 VOTING $end
+$var reg 4 4 checksum [3:0] $end
+$var reg 4 5 count_A [3:0] $end
+$var reg 4 6 count_B [3:0] $end
+$var reg 4 7 count_C [3:0] $end
+$var reg 3 8 debounce_A [2:0] $end
+$var reg 3 9 debounce_B [2:0] $end
+$var reg 3 : debounce_C [2:0] $end
+$var reg 4 ; eeprom_A [3:0] $end
+$var reg 4 < eeprom_B [3:0] $end
+$var reg 4 = eeprom_C [3:0] $end
+$var reg 1 $ memory_valid $end
+$var reg 7 > seg_A [6:0] $end
+$var reg 7 ? seg_B [6:0] $end
+$var reg 7 @ seg_C [6:0] $end
+$var reg 2 A state [1:0] $end
+$var reg 1 B vote_A_prev $end
+$var reg 1 C vote_B_prev $end
+$var reg 1 D vote_C_prev $end
+$scope function seven_segment $end
+$var reg 4 E number [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 3
+b10 2
+b0 1
+$end
+#0
+$dumpvars
+bx E
+xD
+xC
+xB
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+x0
+x/
+x.
+0-
+0,
+0+
+0*
+1)
+0(
+bx '
+bx &
+bx %
+x$
+bx #
+bx "
+bx !
+$end
+#5000
+b1111110 !
+b1111110 @
+b1111110 "
+b1111110 ?
+b1111110 #
+b1111110 >
+b0 E
+0.
+b0 :
+0/
+b0 9
+00
+b0 8
+0$
+0D
+0C
+0B
+b0 4
+b0 =
+b0 <
+b0 ;
+b0 %
+b0 7
+b0 &
+b0 6
+b0 '
+b0 5
+b0 A
+1(
+#10000
+0(
+#15000
+1(
+#20000
+0(
+0)
+#25000
+1(
+#30000
+0(
+1+
+#35000
+b1 8
+1(
+#40000
+0(
+#45000
+b11 8
+1(
+#50000
+0(
+#55000
+10
+b111 8
+1(
+#60000
+0(
+#65000
+b1 A
+1B
+1(
+#70000
+0(
+0+
+#75000
+00
+b110 8
+1(
+#80000
+0(
+#85000
+b100 8
+0B
+1(
+#90000
+0(
+1+
+#95000
+b1 8
+1(
+#100000
+0(
+#105000
+b11 8
+1(
+#110000
+0(
+#115000
+10
+b111 8
+1(
+#120000
+0(
+#125000
+b110000 #
+b110000 >
+b0 E
+b1 '
+b1 5
+1B
+1(
+#130000
+0(
+0+
+#135000
+00
+b110 8
+1(
+#140000
+0(
+#145000
+b100 8
+0B
+1(
+#150000
+0(
+1,
+#155000
+b1 9
+b0 8
+1(
+#160000
+0(
+#165000
+b11 9
+1(
+#170000
+0(
+#175000
+1/
+b111 9
+1(
+#180000
+0(
+#185000
+b110000 "
+b110000 ?
+b0 E
+b1 &
+b1 6
+1C
+1(
+#190000
+0(
+0,
+#195000
+0/
+b110 9
+1(
+#200000
+0(
+#205000
+b100 9
+0C
+1(
+#210000
+0(
+1,
+#215000
+b1 9
+1(
+#220000
+0(
+#225000
+b11 9
+1(
+#230000
+0(
+#235000
+1/
+b111 9
+1(
+#240000
+0(
+#245000
+b1101101 "
+b1101101 ?
+b0 E
+b10 &
+b10 6
+1C
+1(
+#250000
+0(
+0,
+#255000
+0/
+b110 9
+1(
+#260000
+0(
+#265000
+b100 9
+0C
+1(
+#270000
+0(
+1-
+#275000
+b1 :
+b0 9
+1(
+#280000
+0(
+#285000
+b11 :
+1(
+#290000
+0(
+#295000
+1.
+b111 :
+1(
+#300000
+0(
+#305000
+b110000 !
+b110000 @
+b1 E
+b1 %
+b1 7
+1D
+1(
+#310000
+0(
+0-
+#315000
+0.
+b110 :
+1(
+#320000
+0(
+#325000
+b100 :
+0D
+1(
+#330000
+0(
+1*
+#335000
+b10 A
+b10 4
+b1 =
+b10 <
+b1 ;
+b0 :
+1(
+#340000
+0(
+#345000
+1$
+1(
+#350000
+0(
+#355000
+1(
+#360000
+0(
+0*
+#365000
+b1 A
+1(
+#370000
+0(
+#375000
+1(
+#380000
+0(
+#385000
+1(
+#390000
+0(
+#395000
+1(
+#400000
+0(
